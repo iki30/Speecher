@@ -4,7 +4,7 @@ from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
-from api.serializers import SpeechRecognizeSerializer
+from speecher.apps.api.serializers import SpeechRecognizeSerializer
 
 
 class SpeechRecognizeView(viewsets.GenericViewSet):

@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'api.apps.ApiConfig',
+    'speecher.apps.api.apps.ApiConfig',
 ]
 
 MIDDLEWARE = [
